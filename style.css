@@ -1,3 +1,32 @@
 .MainTitle{
     text-align: center;
 }
+
+.blockDiv{
+    flex: 1;
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.rowDiv{
+    display: flex;
+    flex:1;
+    width: auto;
+    height: auto;
+}
+
+.Board{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    border-style: solid;
+    min-width: 250px;
+    max-width: 500px;
+    width: 50%;
+    aspect-ratio: 1;
+    margin: 0 auto;
+}
