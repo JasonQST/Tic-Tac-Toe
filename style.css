@@ -1,5 +1,12 @@
+h1{
+    font-weight: bolder;
+    font-size: 75px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 .MainTitle{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .blockDiv{
@@ -24,9 +31,14 @@
     flex:1;
     flex-direction: column;
     border-style: solid;
+    border-width: 3px;
     min-width: 250px;
     max-width: 500px;
     width: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
+}
+
+.occupySymble{
+
 }
